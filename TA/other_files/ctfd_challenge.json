@@ -1,0 +1,15 @@
+{
+    "name": "Multi-Stage Hack",
+    "category": "Reverse Engineering",
+    "description": "This is a multi-stage challenge. Reverse, decrypt, and unlock your way to the final flag.",
+    "value": 300,
+    "state": "visible",
+    "type": "standard",
+    "flags": [
+        {
+            "type": "static",
+            "value": "flag{mult1_st4g3_c0mpl3t3}",
+            "data": ""
+        }
+    ]
+}

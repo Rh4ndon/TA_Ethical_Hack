@@ -1,0 +1,25 @@
+    "~q*/:|qs~;qs|",
+    "lmc8=(ncal)can",
+    "CFSR",
+    "flag{~q*/:|qs~;qs|}",
+    "flag{lmc8=(ncal)can}",
+    "flag{CFSR}",
+     "FLAG{~q*/:|qs~;qs|}",
+    "FLAG{lmc8=(ncal)can}",
+    "FLAG{CFSR}"
+
+password_candidates = [
+     "~q*/:|qs~;qs|",
+    "lmc8=(ncal)can",
+    "CFSR",
+    "flag{~q*/:|qs~;qs|}",
+    "flag{lmc8=(ncal)can}",
+    "flag{CFSR}",
+     "FLAG{~q*/:|qs~;qs|}",
+    "FLAG{lmc8=(ncal)can}",
+    "FLAG{CFSR}"
+]
+
+for f in stage2_*.dec; do
+  echo "$f: $(file "$f")"
+done
